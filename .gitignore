@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+output/
+photos/
+monte_carlo_analysis/
+*.btproj
+.DS_Store

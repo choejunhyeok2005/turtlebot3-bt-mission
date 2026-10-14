@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4" main_tree_to_execute="PhotoMission">
+  <BehaviorTree ID="PhotoMission">
+    <PhotoMission>
+      <Sequence>
+        <WaitForGoal/>
+        <SaveStartPose/>
+        <MoveToGoal/>
+        <CaptureImage/>
+        <ReturnToStart/>
+      </Sequence>
+    </PhotoMission>
+  </BehaviorTree>
+  <TreeNodesModel>
+    <Decorator ID="PhotoMission"/>
+    <Condition ID="WaitForGoal"/>
+    <Action ID="SaveStartPose"/>
+    <Action ID="MoveToGoal"/>
+    <Action ID="CaptureImage"/>
+    <Action ID="ReturnToStart"/>
+  </TreeNodesModel>
+</root>
